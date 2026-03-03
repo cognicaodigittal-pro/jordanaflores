@@ -151,20 +151,29 @@ header {
 }
 
 /* Hero Section */
+/* Force Refresh: Pink and Black Theme Applied */
 .hero {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: var(--bg-off);
+    background: var(--secondary);
+    /* Dark Black */
     padding-top: 120px;
     padding-bottom: 60px;
 }
 
-.hero-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    align-items: center;
+.hero-content h1 {
+    color: white;
+}
+
+.hero-content p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 50px;
+align-items: center;
 }
 
 .hero-content h1 {
@@ -196,12 +205,15 @@ header {
 
 .section-subtitle {
     color: var(--primary);
+    /* Pink */
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 600;
+    letter-spacing: 3px;
+    font-weight: 700;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     padding-top: 5px;
+    border-left: 4px solid var(--primary);
+    padding-left: 15px;
 }
 
 /* About */
