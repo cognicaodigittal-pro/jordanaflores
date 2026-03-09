@@ -263,6 +263,39 @@ align-items: center;
     font-weight: bold;
 }
 
+/* Pricing Box */
+.pricing-box {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 30px;
+    border: 2px solid var(--primary);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.price-old {
+    font-size: 1.2rem;
+    color: var(--text-light);
+    text-decoration: line-through;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.price-new {
+    font-size: 3rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color: var(--secondary);
+    margin-bottom: 20px;
+    display: block;
+}
+
+.price-new span {
+    font-size: 1.5rem;
+    vertical-align: super;
+}
+
 /* Social Proof */
 .testimonials-grid {
     display: grid;
